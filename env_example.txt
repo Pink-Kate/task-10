@@ -1,0 +1,15 @@
+# Django налаштування
+SECRET_KEY=your-secret-key-here
+DEBUG=True
+
+# База даних SQLite (використовується за замовчуванням)
+# PostgreSQL налаштування (закоментовані для SQLite)
+# DB_NAME=quotes_db
+# DB_USER=postgres
+# DB_PASSWORD=password
+# DB_HOST=localhost
+# DB_PORT=5432
+
+# MongoDB налаштування
+MONGODB_URI=mongodb://localhost:27017/
+MONGODB_DB=quotes_db 
